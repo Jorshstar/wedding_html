@@ -1,0 +1,69 @@
+<!--Creating a wedding card-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--meta charset is  character in coding. it makes sure words areexpressed correctly-->
+    <meta name="description" content="" />
+    <!--its just a description tag mainly used by the digital marketting guys-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--this is used to limk the css with our html-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--this is called the browser comptability meta tag. it is for responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <!--class helps give code a particular styling different from other code-->
+      <div class="logo">
+        <!--to write a class we can use div.logo-->
+        <a href="#"
+          ><img
+            src="images/innkeeper-logo.png"
+            alt="innkeeper-logo"
+            width="50px"
+            height="50px"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="harmburger">
+        <i class="fa fa-bars"> </i>
+      </div>
+      <div class="button-group">
+        <button class="btn btn-success"><a href="#">Login</a></button>
+        <button class="btn btn-danger"><a href="#">Sign up</a></button>
+      </div>
+    </div>
+    <div class="hero">
+      <!--this banner section is called the hero section on any page-->
+      <div class="hero-content">
+        <h3 class="hero-text">YOUR Wedding, Your Way</h3>
+        <form action="#" class="hero-form">
+          <!--this ic used to put a rectangular box where you can choosefrom-->
+          <input type="text" placeholder="select category" required /><i
+            class="fa fa-caret-down"
+          ></i>
+          <input type="text" placeholder="select Location" required /><i
+            class="fa fa-caret-down"
+          ></i>
+          <button>search</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

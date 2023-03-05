@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  display: flex; /*this displays the html list to the left*/
+  /*justify-content: flex-end; /*this moves the whole navbar to the right*/
+  justify-content: space-between; /*this moves just the menu items to the right*/
+}
+.btn {
+  border-radius: 20px;
+  align-items: center;
+  padding: 5px;
+}
+.btn-success {
+  background-color: green;
+}
+.btn-danger {
+  background-color: red;
+}
+.menu ul {
+  /*this spreads the menu on our html code*/
+  display: flex;
+  list-style-type: none; /*this removes the bullet point that are usually displayed by default on the unoredred lists i.e it removes the underline*/
+}
+/*.menu {
+  /*this moves the menu items to the center*/
+/*position: absolute;
+  right: 500px;
+}*/
+.menu li a {
+  padding: 10px;
+  text-decoration: none; /*this removes the underline in the navbar lists*/
+}
+.menu li a:hover {
+  background-color: blueviolet;
+  border-radius: 15px;
+  color: #fff;
+}
+.menu .active {
+  background-color: blueviolet;
+  border-radius: 15px;
+  color: #fff;
+}
+.hero-content {
+  /*margin-top: 250px; /*this moves the hero space at the top*/
+}
+.hero-text {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  background-image: url("/images/wedding.jpg");
+  padding: 0;
+  margin: 0;
+}
