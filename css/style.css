@@ -43,15 +43,86 @@ body {
   border-radius: 15px;
   color: #fff;
 }
-.hero-content {
-  /*margin-top: 250px; /*this moves the hero space at the top*/
-}
-.hero-text {
-  font-size: 25px;
-  font-family: "Poppins", sans-serif;
-}
 .hero {
   background-image: url("/images/wedding.jpg");
-  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0 0 50px;
   margin: 0;
 }
+.hero-content {
+  /*margin-top: 250px; /*this moves the hero space at the top*/
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  
+}
+.hero-form input,
+.btn-search{
+  padding: 10px 30px 10px 5px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+.btn-search{
+  text-align: center;
+  background-color: #dfdfdf;
+  padding: 10px 30px;
+}
+.container{
+  padding: 10px 40px;
+}
+.category-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+.category-text h4{
+  font-size: 25px;
+  font-weight: 400;
+}
+.category-text h5{
+  font-size: 10px;
+  font-weight: 400;
+}
+.card-image,
+.card-desc{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.card-image img{
+  flex: 1;
+  margin-right: 10px;
+  max-width: 25%;
+  border-radius: 5px;
+}
+.card-desc h4{
+  flex: 2; /*this divides the words into sections*/
+}
+.card-scroll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+,card-scroll h3{
+  padding: 5px 10px;
+  margin: 0 10px;
+  background-color: #e0e0e0;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+}
+.card-scroll i{
+  background-color: #b2b2b2;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  
+}
+
